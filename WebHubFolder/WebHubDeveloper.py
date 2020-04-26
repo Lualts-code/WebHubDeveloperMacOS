@@ -1,19 +1,10 @@
-from tkinter import *
+from WebHubFolder import WebHubMaker
 import os
 
 def open():
-    os.system("python projects/" + entry.get() + ".py")
+    os.system("python projects/" + str(input1.get()) + ".py")
 
-window = Tk()
-window.title("WebHubDeveloper")
-window.minsize(250, 50)
-
-entry = Entry(window)
-entry.insert(0, "Name of your Web.")
-
-button = Button(window, text="Open", command=open)
-
-entry.pack()
-button.pack()
-
-window.mainloop()
+WebHubMaker.window(title="WebHubDeveloper", width="250", height="50", bg="white")
+input1 = WebHubMaker.input(default="Name of your Web.", fg="black", bg="white")
+WebHubMaker.button(text="Open", width="0", height="0", command=open, fg="black", bg="white")
+WebHubMaker.start()
