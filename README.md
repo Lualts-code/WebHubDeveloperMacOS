@@ -1,14 +1,10 @@
-# WebHubDeveloper
+# Versions
 
-MacOS version
+OS: MacOS
+Python: 3.8
+WebHubMaker: 1.0
 
-python 3.8
-
-WebHub for developers.
-
-WebHub is a Hub for Webs.
-
-# All commands
+# All the commands
 
 from WebHubFolder import WebHubMaker
 
