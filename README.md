@@ -27,4 +27,4 @@ WebHubMaker.input(default="[default]", fg="[fg]", bg="[bg]")
 input1 = WebHubMaker.input(default="[default]", fg="[fg]", bg="[bg]")
 input1.get()
 
-WebHubMaker.start()
+WebHubMaker.start() 
